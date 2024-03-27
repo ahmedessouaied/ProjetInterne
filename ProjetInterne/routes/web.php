@@ -9,3 +9,6 @@ Route::get('/', function () {
 Route::get('/catalogue', function () {
     return view('catalogue');
 });
+Route::get('/login', function () {
+    return view('login');
+});
